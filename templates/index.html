@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Macau Travel Personality Quiz</title>
+    <title>Travel Personality Quiz</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: system-ui, -apple-system, sans-serif; }
         body { background: linear-gradient(135deg, #fff2e8, #ffe6ee); min-height: 100vh; padding: 24px 16px; color: #442c2e; }
@@ -44,7 +44,7 @@
         </div>
 
         <div class="spot-card">
-            <img src="{{ result.img_src }}" class="spot-image" alt="Macau Scenery">
+            <img src="{{ result.img_src }}" class="spot-image" alt="Scenery">
             <div class="spot-name">📍 {{ result.spot }}</div>
             <div class="desc-text">{{ result.description }}</div>
             <div class="speech-script">
@@ -60,8 +60,8 @@
     </div>
     {% else %}
     <div class="card">
-        <h1>✨ Macau Travel Personality Quiz</h1>
-        <p class="subtitle">Answer 3 questions to discover your matched Macau spot and lucky color</p>
+        <h1>✨ Travel Personality Quiz</h1>
+        <p class="subtitle">Answer 3 questions to discover your matched spot and lucky color</p>
 
         {% if error %}<div class="error">{{ error }}</div>{% endif %}
 
